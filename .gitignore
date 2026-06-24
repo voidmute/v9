@@ -1,0 +1,34 @@
+# Build intermediates
+.build/
+**/x64/
+**/Debug/
+**/Release/
+*.obj
+*.pch
+*.ipch
+*.tlog
+*.recipe
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# VS / IDE
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Local / duplicate binaries
+built/*.dll
+built/*.exe
+built/v9_ui.dll
+.firecrawl/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
