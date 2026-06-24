@@ -1,10 +1,16 @@
-# v9
+<p align="center">
+  <img src="assets/logo-t.png" alt="v9" width="160">
+</p>
 
-**ESP-оверлей для Penguin Hotel** — минималистичный чёрно-оранжевый интерфейс, русская локализация, кастомный title bar с перетаскиванием.
+<p align="center">
+  <strong>ESP-оверлей для Penguin Hotel</strong> — минималистичный чёрно-оранжевый интерфейс, русская локализация, кастомный title bar с перетаскиванием.
+</p>
 
-[![Release](https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&color=ff6a1a&label=release)](https://github.com/voidmute/v9/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20x64-111?style=flat-square)](https://github.com/voidmute/v9)
+<p align="center">
+  <a href="https://github.com/voidmute/v9/releases"><img src="https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&color=ff6a1a&label=release" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square" alt="License: MIT"></a>
+  <a href="https://github.com/voidmute/v9"><img src="https://img.shields.io/badge/platform-Windows%20x64-111?style=flat-square" alt="Platform"></a>
+</p>
 
 ---
 
@@ -91,6 +97,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build_all.ps1
 
 ```
 v9/
+├── assets/          # Логотипы (logo-t.png — прозрачный, logo.png — на чёрном)
 ├── v9/              # Исходники ESP (DLL)
 ├── runtime/         # Инжектор, bridge, camouflage
 ├── scripts/         # Скрипты сборки
