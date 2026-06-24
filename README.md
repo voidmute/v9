@@ -3,13 +3,16 @@
 </p>
 
 <p align="center">
-  <strong>Cheat Menu для Meccha Chameleon</strong> - минималистичный чёрно-оранжевый интерфейс, русская локализация, кастомный title bar с перетаскиванием.
+  <strong>Cheat Menu для Meccha Chameleon</strong> - визуалы, FOV, список игроков и телепорт. Всё в одном меню, быстро включается и настраивается.
 </p>
 
 <p align="center">
-  <a href="https://github.com/voidmute/v9/releases"><img src="https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&color=ff6a1a&label=release" alt="Release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square" alt="License: MIT"></a>
-  <a href="https://github.com/voidmute/v9"><img src="https://img.shields.io/badge/platform-Windows%20x64-111?style=flat-square" alt="Platform"></a>
+  <a href="https://github.com/voidmute/v9/releases/latest">
+    <img src="https://img.shields.io/badge/latest-22c55e?style=flat-square" alt="latest">
+    <img src="https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&label=release&labelColor=6b7280&color=6b7280" alt="release">
+  </a>
+  <a href="https://github.com/voidmute/v9?tab=MIT-1-ov-file"><img src="https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square" alt="License: MIT"></a>
+  <a href="https://www.microsoft.com/windows/get-windows"><img src="https://img.shields.io/badge/platform-Windows%20x64-ff6a1a?style=flat-square" alt="Platform"></a>
 </p>
 
 ---
@@ -23,10 +26,7 @@
 | **Игроки** | Список игроков и телепорт |
 | **Цвета** | Палитра визуалов + сохранение настроек |
 
-- Острые углы, без прозрачности - чёткий UI поверх игры
-- Перетаскивание окна за title bar
-- Сворачивание / закрытие меню кнопками **−** и **×**
-- Плавная смена вкладок и индикатор активного раздела
+Меню открывается за секунду, настройки сохраняются сами - не нужно лезть в файлы.
 
 ---
 
@@ -34,7 +34,7 @@
 
 ### 1. Скачайте релиз
 
-Перейдите в [Releases](https://github.com/voidmute/v9/releases) и скачайте **`v9-esp-win64.zip`**.
+Перейдите в [последний релиз](https://github.com/voidmute/v9/releases/latest) и скачайте **`v9-esp-win64.zip`**.
 
 ### 2. Распакуйте в одну папку
 
@@ -118,4 +118,4 @@ v9/
 
 ## Лицензия
 
-[MIT](LICENSE) © 2026 [voidmute](https://github.com/voidmute)
+[MIT](https://github.com/voidmute/v9?tab=MIT-1-ov-file) © 2026 [voidmute](https://github.com/voidmute)
