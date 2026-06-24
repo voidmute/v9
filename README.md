@@ -97,7 +97,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build_all.ps1
 
 ```
 v9/
-├── assets/          # Логотипы (logo-t.png — прозрачный, logo.png — на чёрном)
+├── assets/          # Логотип (logo-t.png)
 ├── v9/              # Исходники ESP (DLL)
 ├── runtime/         # Инжектор, bridge, camouflage
 ├── scripts/         # Скрипты сборки
