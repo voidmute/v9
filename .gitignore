@@ -28,6 +28,9 @@ built/*.exe
 built/v9_ui.dll
 .firecrawl/
 
+# Release artifacts (published via GitHub Releases only)
+v9-esp-win64.zip
+
 # OS
 Thumbs.db
 Desktop.ini
