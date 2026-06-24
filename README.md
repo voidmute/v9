@@ -7,7 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/voidmute/v9/releases/latest"><img src="https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&label=latest&labelColor=6b7280&color=ff6a1a" alt="latest v1.0.0" style="margin:0 6px;vertical-align:middle;"></a><a href="https://github.com/voidmute/v9?tab=MIT-1-ov-file"><img src="https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square" alt="License: MIT" style="margin:0 6px;vertical-align:middle;"></a><a href="https://www.microsoft.com/windows/get-windows"><img src="https://img.shields.io/badge/platform-Windows%20x64-ff6a1a?style=flat-square" alt="Platform" style="margin:0 6px;vertical-align:middle;"></a>
+  <a href="https://github.com/voidmute/v9/releases/latest"><img src="https://img.shields.io/github/v/release/voidmute/v9?style=flat-square&label=latest&labelColor=6b7280&color=ff6a1a" alt="latest v1.0.0"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/voidmute/v9?tab=MIT-1-ov-file"><img src="https://img.shields.io/badge/license-MIT-ff6a1a?style=flat-square" alt="License: MIT"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.microsoft.com/windows/get-windows"><img src="https://img.shields.io/badge/platform-Windows%20x64-ff6a1a?style=flat-square" alt="Platform"></a>
 </p>
 
 ---
