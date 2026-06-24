@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <img src="https://api.iconify.design/feather/zap.svg?color=%23ff6a1a&height=16" width="16" alt="" align="absmiddle">
   <strong>Cheat Menu для Meccha Chameleon</strong> - визуалы, FOV, список игроков и телепорт. Всё в одном меню, быстро включается и настраивается.
 </p>
 
@@ -16,26 +17,26 @@
 
 ---
 
-## Возможности
+## <img src="https://api.iconify.design/feather/layers.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Возможности
 
-| Раздел | Описание |
-|--------|----------|
-| **Визуал** | Рамка, скелет, линии, имена, роли, дистанция, фильтр врагов |
-| **Камера** | Кастомный FOV |
-| **Игроки** | Список игроков и телепорт |
-| **Цвета** | Палитра визуалов + сохранение настроек |
+| | Раздел | Описание |
+|:---:|:------:|----------|
+| <img src="https://api.iconify.design/feather/eye.svg?color=%23ff6a1a&height=18" width="18" alt=""> | **Визуал** | Рамка, скелет, линии, имена, роли, дистанция, фильтр врагов |
+| <img src="https://api.iconify.design/feather/aperture.svg?color=%23ff6a1a&height=18" width="18" alt=""> | **Камера** | Кастомный FOV |
+| <img src="https://api.iconify.design/feather/users.svg?color=%23ff6a1a&height=18" width="18" alt=""> | **Игроки** | Список игроков и телепорт |
+| <img src="https://api.iconify.design/feather/droplet.svg?color=%23ff6a1a&height=18" width="18" alt=""> | **Цвета** | Палитра визуалов + сохранение настроек |
 
-Меню открывается за секунду, настройки сохраняются сами - не нужно лезть в файлы.
+<img src="https://api.iconify.design/feather/check-circle.svg?color=%23ff6a1a&height=16" width="16" alt="" align="absmiddle"> Меню открывается за секунду, настройки сохраняются сами - не нужно лезть в файлы.
 
 ---
 
-## Быстрый старт
+## <img src="https://api.iconify.design/feather/rocket.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Быстрый старт
 
-### 1. Скачайте релиз
+### <img src="https://api.iconify.design/feather/download.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 1. Скачайте релиз
 
 Перейдите в [последний релиз](https://github.com/voidmute/v9/releases/latest) и скачайте **`v9-esp-win64.zip`**.
 
-### 2. Распакуйте в одну папку
+### <img src="https://api.iconify.design/feather/folder.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 2. Распакуйте в одну папку
 
 ```
 v9/
@@ -45,11 +46,11 @@ v9/
 └── inject-v9-esp.ps1
 ```
 
-### 3. Запустите игру
+### <img src="https://api.iconify.design/feather/monitor.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 3. Запустите игру
 
 Процесс: **`PenguinHotel-Win64-Shipping.exe`**
 
-### 4. Инжект
+### <img src="https://api.iconify.design/feather/target.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 4. Инжект
 
 Дважды кликните **`inject-v9-esp.bat`** (при ошибке - от имени администратора).
 
@@ -62,20 +63,20 @@ cd путь\к\папке
 
 ---
 
-## Горячие клавиши
+## <img src="https://api.iconify.design/feather/command.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Горячие клавиши
 
 | Клавиша | Действие |
 |---------|----------|
-| **INSERT** | Открыть / закрыть меню |
-| **END** | Выгрузить Cheat Menu из игры |
+| **INSERT** <img src="https://api.iconify.design/feather/toggle-right.svg?color=%23ff6a1a&height=14" width="14" alt="" align="absmiddle"> | Открыть / закрыть меню |
+| **END** <img src="https://api.iconify.design/feather/log-out.svg?color=%23ff6a1a&height=14" width="14" alt="" align="absmiddle"> | Выгрузить Cheat Menu из игры |
 
-Настройки сохраняются в `C:\v9\settings.ini` (папка создаётся автоматически).
+<img src="https://api.iconify.design/feather/save.svg?color=%23ff6a1a&height=16" width="16" alt="" align="absmiddle"> Настройки сохраняются в `C:\v9\settings.ini` (папка создаётся автоматически).
 
 ---
 
-## Сборка из исходников
+## <img src="https://api.iconify.design/feather/package.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Сборка из исходников
 
-**Требования:** Windows 10/11 x64, Visual Studio 2022 Build Tools (MSVC v143), Windows SDK.
+<img src="https://api.iconify.design/feather/cpu.svg?color=%23ff6a1a&height=16" width="16" alt="" align="absmiddle"> **Требования:** Windows 10/11 x64, Visual Studio 2022 Build Tools (MSVC v143), Windows SDK.
 
 ```powershell
 cd v9
@@ -92,7 +93,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build_all.ps1
 
 ---
 
-## Структура репозитория
+## <img src="https://api.iconify.design/feather/git-branch.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Структура репозитория
 
 ```
 v9/
@@ -107,14 +108,14 @@ v9/
 
 ---
 
-## Важно
+## <img src="https://api.iconify.design/feather/alert-triangle.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Важно
 
-- Используйте **только на свой страх и риск**. Автор не несёт ответственности за баны или сбои.
-- Не запускайте **Cheat Menu и camouflage одновременно** - возможен конфликт D3D12-хуков.
-- Репозиторий предназначен для образовательных целей и личного использования.
+- <img src="https://api.iconify.design/feather/shield.svg?color=%23ff6a1a&height=14" width="14" alt="" align="absmiddle"> Используйте **только на свой страх и риск**. Автор не несёт ответственности за баны или сбои.
+- <img src="https://api.iconify.design/feather/slash.svg?color=%23ff6a1a&height=14" width="14" alt="" align="absmiddle"> Не запускайте **Cheat Menu и camouflage одновременно** - возможен конфликт D3D12-хуков.
+- <img src="https://api.iconify.design/feather/book-open.svg?color=%23ff6a1a&height=14" width="14" alt="" align="absmiddle"> Репозиторий предназначен для образовательных целей и личного использования.
 
 ---
 
-## Лицензия
+## <img src="https://api.iconify.design/feather/file-text.svg?color=%23ff6a1a&height=20" width="20" alt="" align="absmiddle"> Лицензия
 
 [MIT](https://github.com/voidmute/v9?tab=MIT-1-ov-file) © 2026 [voidmute](https://github.com/voidmute)
