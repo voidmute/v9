@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Cheat Menu для Penguin Hotel</strong> - минималистичный чёрно-оранжевый интерфейс, русская локализация, кастомный title bar с перетаскиванием.
+  <strong>Cheat Menu для Meccha Chameleon</strong> - минималистичный чёрно-оранжевый интерфейс, русская локализация, кастомный title bar с перетаскиванием.
 </p>
 
 <p align="center">
