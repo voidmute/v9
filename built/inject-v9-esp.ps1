@@ -12,6 +12,6 @@ if (-not (Test-Path $dll)) { Write-Host "v9.dll not found. Run v9\build.bat"; ex
 if (-not (Get-Process -Name ($process -replace '\.exe$','') -ErrorAction SilentlyContinue)) {
     Write-Host "Start the game first."; exit 1
 }
-Write-Host "Injecting v9 ESP from $(Split-Path -Leaf $dll)..."
+Write-Host "Injecting v9 Cheat Menu from $(Split-Path -Leaf $dll)..."
 & $injector $process $dll
 if ($LASTEXITCODE -eq 0) { Write-Host "OK. INSERT = menu, END = unload" } else { exit $LASTEXITCODE }

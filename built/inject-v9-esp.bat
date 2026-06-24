@@ -5,7 +5,7 @@ if not exist "v9.dll" (
   pause
   exit /b 1
 )
-echo Injecting v9 ESP...
+echo Injecting v9 Cheat Menu...
 "%~dp0v9injector.exe" PenguinHotel-Win64-Shipping.exe "%~dp0v9.dll"
 if %ERRORLEVEL% EQU 0 (
   echo OK. INSERT = menu, END = unload

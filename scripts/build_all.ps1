@@ -55,7 +55,7 @@ $EspProject = Join-Path $V9Root "v9\v9.vcxproj"
 foreach ($source in @($BridgeSource, $InjectorSource, $CamouflageSource)) {
     if (-not (Test-Path $source)) { throw "Source not found: $source" }
 }
-if (-not (Test-Path $EspProject)) { throw "ESP project not found: $EspProject" }
+if (-not (Test-Path $EspProject)) { throw "Cheat Menu project not found: $EspProject" }
 
 $BridgeOutput = Join-Path $OutDir "v9bridge.dll"
 $InjectorOutput = Join-Path $OutDir "v9injector.exe"
@@ -95,7 +95,7 @@ Invoke-VsToolCommand -ToolName "cl.exe" -ToolArgs @(
     "User32.lib"
 )
 
-Write-Host "Building v9.dll (ESP)..."
+Write-Host "Building v9.dll (Cheat Menu)..."
 $msbuild = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.Component.MSBuild -property installationPath 2>$null
 if ($msbuild) { $msbuild = Join-Path $msbuild "MSBuild\Current\Bin\MSBuild.exe" }
 if (-not $msbuild -or -not (Test-Path $msbuild)) { throw "MSBuild not found" }
