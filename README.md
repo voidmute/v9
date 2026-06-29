@@ -49,7 +49,7 @@ v9/
 
 ### <img src="https://api.iconify.design/feather/monitor.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 3. Запустите игру
 
-Процесс: **`PenguinHotel-Win64-Shipping.exe`**
+Процесс: **`Meccha Chameleon`**
 
 ### <img src="https://api.iconify.design/feather/target.svg?color=%23ff6a1a&height=18" width="18" alt="" align="absmiddle"> 4. Инжект
 
